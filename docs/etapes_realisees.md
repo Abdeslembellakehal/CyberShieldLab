@@ -16,7 +16,7 @@
 
 ## ✅ 2. Installation de Snort sur Ubuntu Server
 
-Commande utilisée :
+Commande utilisée 
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y snort
