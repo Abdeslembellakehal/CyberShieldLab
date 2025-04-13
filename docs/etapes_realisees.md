@@ -16,7 +16,7 @@
 
 ## ✅ 2. Installation de Snort sur Ubuntu Server
 
-Installation du système de détection d’intrusion (IDS) :
+Installation du système de détection d’intrusion (IDS)
 
 ```bash
 sudo apt update && sudo apt upgrade -y
