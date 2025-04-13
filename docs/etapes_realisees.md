@@ -12,8 +12,6 @@
 - Réseau privé : `192.168.192.0/24`
 - Test de communication avec `ping` entre Ubuntu Desktop et Ubuntu Server ✅
 
-📸 ![Ping Ubuntu](../images/ping_ubuntu.png)
-
 ---
 
 ## ✅ 2. Installation de Snort sur Ubuntu Server
@@ -28,15 +26,15 @@ Depuis Kali, scan Nmap exécuté :
 nmap 192.168.192.147
 Snort détecte l'activité réseau avec succees
 
-✅ 4. Création du script d’automatisation block_ip.sh
+## ✅ 4. Création du script d’automatisation block_ip.sh
 
 Extraire l’IP depuis les alertes de Snort et la bloquer avec iptables.
 
-✅ 5. Test manuel du script block_ip.sh
+## ✅ 5. Test manuel du script block_ip.sh
 
 Vérifier si le script détecte et bloque une IP après une attaque.
 
-✅ 6. Création d’un fichier log /var/log/ip_bloquees.log
+##✅ 6. Création d’un fichier log /var/log/ip_bloquees.log
 
  Sauvegarder les IP bloquées automatiquement.
 
